@@ -24,7 +24,7 @@ class LOCALIZATION_TEST_OT_test(Operator):
 
 class LOCALIZATION_TEST_PT_panel(Panel):
     bl_idname = 'LOCALIZATION_TEST_PT_panel'
-    bl_label = 'Panel Header'
+    bl_label = 'Panel Header Updated'
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = 'Localization test'

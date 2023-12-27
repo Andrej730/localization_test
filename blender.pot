@@ -16,7 +16,7 @@ msgid "Localization test"
 msgstr ""
 
 #. :src: bpy.types.LOCALIZATION_TEST_PT_panel
-msgid "Panel Header"
+msgid "Panel Header Updated"
 msgstr ""
 
 #. :src: bpy.types.CollectionProperty
@@ -35,7 +35,7 @@ msgstr ""
 msgid "Fixed pointer type, empty if variable type"
 msgstr ""
 
-#: scriptsddons\localization_test\__init__.py:33
+#: scriptsddons\localization_test\__init__.py:34
 msgid "Test text in Blender UI"
 msgstr ""
 
