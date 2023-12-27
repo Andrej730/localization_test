@@ -30,7 +30,7 @@ msgstr ""
 
 #. :src: bpy.types.LOCALIZATION_TEST_PT_panel
 msgid "Panel Header"
-msgstr ""
+msgstr "Test panel header RU"
 
 #. :src: bpy.types.CollectionProperty
 msgid "Collection Definition"
