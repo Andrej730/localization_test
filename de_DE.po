@@ -1,0 +1,58 @@
+# Blender's translation file (po format).
+# Copyright (C) 2023 The Blender Authors.
+# This file is distributed under the same license as the Blender package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: Localization Test 1.0.0 (0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 14:02:59.364975\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: __POT__\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#. :src: bpy.types.LOCALIZATION_TEST_OT_test
+msgctxt "Operator"
+msgid "Operator name"
+msgstr ""
+
+#. :src: bpy.types.LOCALIZATION_TEST_OT_test
+msgid "Operator description"
+msgstr ""
+
+#. :src: bpy.types.LOCALIZATION_TEST_PT_panel
+msgid "Localization test"
+msgstr ""
+
+#. :src: bpy.types.LOCALIZATION_TEST_PT_panel
+msgid "Panel Header"
+msgstr ""
+
+#. :src: bpy.types.CollectionProperty
+msgid "Collection Definition"
+msgstr ""
+
+#. :src: bpy.types.CollectionProperty
+msgid "RNA collection property to define lists, arrays and mappings"
+msgstr ""
+
+#. :src: bpy.types.CollectionProperty.fixed_type
+msgid "Pointer Type"
+msgstr ""
+
+#. :src: bpy.types.CollectionProperty.fixed_type
+msgid "Fixed pointer type, empty if variable type"
+msgstr ""
+
+#: scriptsddons\localization_test\__init__.py:33
+msgid "Test text in Blender UI"
+msgstr ""
+
+#: Add-on Localization Test info: name
+msgid "Localization Test"
+msgstr ""
+

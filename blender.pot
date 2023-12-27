@@ -1,0 +1,45 @@
+
+msgid ""
+msgstr ""
+
+#. :src: bpy.types.LOCALIZATION_TEST_OT_test
+msgctxt "Operator"
+msgid "Operator name"
+msgstr ""
+
+#. :src: bpy.types.LOCALIZATION_TEST_OT_test
+msgid "Operator description"
+msgstr ""
+
+#. :src: bpy.types.LOCALIZATION_TEST_PT_panel
+msgid "Localization test"
+msgstr ""
+
+#. :src: bpy.types.LOCALIZATION_TEST_PT_panel
+msgid "Panel Header"
+msgstr ""
+
+#. :src: bpy.types.CollectionProperty
+msgid "Collection Definition"
+msgstr ""
+
+#. :src: bpy.types.CollectionProperty
+msgid "RNA collection property to define lists, arrays and mappings"
+msgstr ""
+
+#. :src: bpy.types.CollectionProperty.fixed_type
+msgid "Pointer Type"
+msgstr ""
+
+#. :src: bpy.types.CollectionProperty.fixed_type
+msgid "Fixed pointer type, empty if variable type"
+msgstr ""
+
+#: scriptsddons\localization_test\__init__.py:33
+msgid "Test text in Blender UI"
+msgstr ""
+
+#: Add-on Localization Test info: name
+msgid "Localization Test"
+msgstr ""
+
