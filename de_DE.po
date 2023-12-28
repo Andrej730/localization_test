@@ -24,18 +24,18 @@ msgstr ""
 msgid "Operator description"
 msgstr ""
 
+#. :src: bpy.types.A_TEST_LOCALIZATION_TEST_PT_panel
 #. :src: bpy.types.LOCALIZATION_TEST_PT_panel
-#. :src: bpy.types.TEST_LOCALIZATION_TEST_PT_panel
 msgid "Localization test"
 msgstr ""
+
+#. :src: bpy.types.A_TEST_LOCALIZATION_TEST_PT_panel
+msgid "Panel Header"
+msgstr "Test panel header DE"
 
 #. :src: bpy.types.LOCALIZATION_TEST_PT_panel
 #, fuzzy
 msgid "Panel Header Updated"
-msgstr "Test panel header DE"
-
-#. :src: bpy.types.TEST_LOCALIZATION_TEST_PT_panel
-msgid "Panel Header"
 msgstr "Test panel header DE"
 
 #. :src: bpy.types.CollectionProperty
