@@ -22,6 +22,7 @@ class LOCALIZATION_TEST_OT_test(Operator):
         self.report({"INFO"}, text) # auto translated
         return {'FINISHED'}
 
+
 class LOCALIZATION_TEST_PT_panel(Panel):
     bl_idname = 'LOCALIZATION_TEST_PT_panel'
     bl_label = 'Panel Header Updated'
@@ -34,6 +35,19 @@ class LOCALIZATION_TEST_PT_panel(Panel):
         layout.label(text='Test text in Blender UI')
         layout.operator('localization_test.test', icon='BLENDER')
 
+
+class TEST_LOCALIZATION_TEST_PT_panel(Panel):
+    bl_idname = 'TEST_LOCALIZATION_TEST_PT_panel'
+    bl_label = 'Panel Header'
+    bl_space_type = 'VIEW_3D'
+    bl_region_type = 'UI'
+    bl_category = 'Localization test'
+
+    def draw(self, context):
+        layout = self.layout
+        layout.label(text='Another test text in Blender UI')
+        layout.operator('localization_test.test', icon='BLENDER')
+
 # https://docs.blender.org/api/current/bpy.app.translations.html
 # https://wiki.blender.jp/Dev:Doc/Process/Translate_Blender
 # https://wiki.blender.org/wiki/Process/Translate_Blender
@@ -42,6 +56,7 @@ class LOCALIZATION_TEST_PT_panel(Panel):
 def register():
     register_class(LOCALIZATION_TEST_OT_test)
     register_class(LOCALIZATION_TEST_PT_panel)
+    register_class(TEST_LOCALIZATION_TEST_PT_panel)
     # automatically will replace all string using locale from `bpy.app.translations.locale`
     # which is a bit annoying since it will replace the strings used by other addons and UI parts
     bpy.app.translations.register(__name__, translations_dict)
@@ -49,8 +64,9 @@ def register():
 
 
 def unregister():
-    unregister_class(LOCALIZATION_TEST_PT_panel)
     unregister_class(LOCALIZATION_TEST_OT_test)
+    unregister_class(LOCALIZATION_TEST_PT_panel)
+    unregister_class(TEST_LOCALIZATION_TEST_PT_panel)
     bpy.app.translations.unregister(__name__)
 
 

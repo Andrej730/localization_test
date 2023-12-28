@@ -12,11 +12,16 @@ msgid "Operator description"
 msgstr ""
 
 #. :src: bpy.types.LOCALIZATION_TEST_PT_panel
+#. :src: bpy.types.TEST_LOCALIZATION_TEST_PT_panel
 msgid "Localization test"
 msgstr ""
 
 #. :src: bpy.types.LOCALIZATION_TEST_PT_panel
 msgid "Panel Header Updated"
+msgstr ""
+
+#. :src: bpy.types.TEST_LOCALIZATION_TEST_PT_panel
+msgid "Panel Header"
 msgstr ""
 
 #. :src: bpy.types.CollectionProperty
@@ -35,8 +40,12 @@ msgstr ""
 msgid "Fixed pointer type, empty if variable type"
 msgstr ""
 
-#: scriptsddons\localization_test\__init__.py:34
+#: scriptsddons\localization_test\__init__.py:35
 msgid "Test text in Blender UI"
+msgstr ""
+
+#: scriptsddons\localization_test\__init__.py:48
+msgid "Another test text in Blender UI"
 msgstr ""
 
 #: Add-on Localization Test info: name
